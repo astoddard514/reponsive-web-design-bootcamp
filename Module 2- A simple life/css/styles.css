@@ -28,6 +28,30 @@ h1 {
     margin: 0;
 }
 
+.article-title {
+
+}
+
+.article-body {
+
+}
+
+.article-info {
+
+}
+
+.article-read-more {
+
+}
+
+.widget-title {
+
+}
+
+.widget-recent-post-title {
+
+}
+
 /* =================
 Layout
 ================= */
@@ -36,6 +60,8 @@ Layout
     width: 90%;
     max-width: 900px;
     margin: 0 auto;
+    border: 2px red solid;
+    display: flex;
 }
 
 .container-nav {
@@ -46,6 +72,17 @@ Layout
 header {
     background: #f8f8f8;
     padding: 2em 0;
+}
+
+main {
+    border: 3px pink solid;
+    
+
+ 
+}
+
+aside {
+border: 2px purple solid;
 }
 
 @media (max-width: 675px) {
@@ -99,4 +136,46 @@ nav a:focus {
     nav li {
         margin: .5em 0;
     }
+}
+
+/* article content */
+
+.article-featured {
+    border: 2px orange solid;
+}
+
+.article-image {
+    width: 198px;
+}
+
+.article-recent {
+    /* border: 2px pink solid; */
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.article-recent-main {
+    /* border: 2px green solid; */
+}
+
+.article-recent-secondary {
+    /* border: 2px teal solid; */
+}
+
+/* sidebar content */
+
+.sidebar {
+    /* border: 2px pink solid; */
+}
+
+.sidebar-widget {
+    /* border: 2px teal solid; */
+}
+
+.widget-recent-post {
+    /* border: 2px green solid; */
+}
+
+.widget-image {
+    width: 150px;
 }
